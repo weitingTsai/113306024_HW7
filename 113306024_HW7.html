@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Profile</title>
+    <link rel="stylesheet" type="text/css" href="113306024_HW7.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="left-panel">
+            <div class="photo-panel">
+            </div>
+            <div class="text-content">
+                <h1 id="name-display" align="center">Tim Tsai</h1>
+                <input type="text" id="name-input" style="display:none;" value="Tim Tsai">
+                <button id="edit-btn">edit</button>
+                <section class="about-me">
+                    <h3>About Me</h3>
+                    <p>Hello! I'm a student at National ChengChi University majoring in the Department of Management Information System. I am passionate about programming and interested in the field of Fintech. I have some coding experiences and skills in Java, C++, Html and Css. Some projects and works are shown below. Welcome to pay a visit to my github web!</p>
+                </section>
+                <section class="contact-info">
+                    <h3>Contact Info</h3>
+                    <p>Email: <a href="mailto:113306024@g.nccu.edu.tw">113306024@g.nccu.edu.tw</a></p>
+                    <p>Phone: 0938-406-152</p>
+                    <p>GitHub: <a href="https://github.com/weitingTsai" target="_blank">github.com/weitingTsai</a></p>
+                    <p>Instagram: <a href="https://www.instagram.com/tsy.weiting/" target="_blank">instagram.com/tsy.weiting</a></p>
+                    </ul>
+                </section>
+                <img src="政大logo-2.jpg" width="300px" alt="NCCU Icon" align="bottom">
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <section class="education">
+                <p><h2>Education</h2></p>
+                <div class="space"><p><div class="timeline-item">
+                    <div class="year">2024-</div>
+                    <div class="description">Started studying at NCCU of MIS</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="year">Now</div>
+                    <div class="description">Computer Science and Financial</div>
+                </div></p>
+                </div>
+                <div class="space">
+                <p><div class="timeline-item">
+                    <div class="year">2022-</div>
+                    <div class="description">Started studying at Kaohsiung Senior High School</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="year">2024</div>
+                    <div class="description">Graduating from KSHS and had a basic skill of coding in C++</div>
+                </div></p>
+            </div>
+            <div class="space">
+                <p><div class="timeline-item">
+                    <div class="year">2020-</div>
+                    <div class="description">Started studying at Edenvale High School in South Africa</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="year">2022</div>
+                    <div class="description">Graduating from Edenvale High School and had a interest in programming</div>
+                </div></p>
+            </div>
+            </section>
+
+            <section class="homework-list">
+                <h2>Homework List</h2>
+                <ul>
+                    <div class="space">
+                    <li><a href="https://github.com/weitingTsai/HW1" target="_blank">Homework 1-https://github.com/weitingTsai/HW1</a></li></div>
+                    <div class="space">
+                    <li><a href="https://github.com/weitingTsai/HW2" target="_blank">Homework 2-https://github.com/weitingTsai/HW2</a></li></div>
+                    <div class="space">
+                    <li><a href="https://github.com/weitingTsai/HW3" target="_blank">Homework 3-https://github.com/weitingTsai/HW3</a></li></div>
+                    <div class="space">
+                    <li><a href="https://github.com/weitingTsai/113306024_HW4" target="_blank">Homework 4-https://github.com/weitingTsai/113306024_HW4</a></li></div>
+                    <div class="space">
+                    <li><a href="https://github.com/weitingTsai/113306024_LAB1" target="_blank">Lab 1-https://github.com/weitingTsai/113306024_LAB1</a></li></div>
+                    <div class="space">
+                    <li><a href="https://github.com/weitingTsai/113306024_CSS_LAB2" target="_blank">Lab 2-https://github.com/weitingTsai/113306024_CSS_LAB2</a></li></div>
+                </ul>
+            </section>
+
+            <section class="favorite-music">
+                <h2>Favorite Music</h2>
+                <div id="music-list" class="albums">
+                     <div class="album-item">
+                        <a href="https://www.youtube.com/watch?v=1kehqCLudyg" target="_blank">
+                        <img src="way back home.png" alt="way back home">
+                        </a>
+                        <p>Way Back Home</p>
+                    </div>
+                    <div class="album-item">
+                        <a href="https://www.youtube.com/watch?v=Y4nEEZwckuU" target="_blank">
+                        <img src="Gunjocoverart.png" alt="Gunjo">
+                        </a>
+                        <p>群青</p>
+                    </div>
+                    <div class="album-item">
+                        <a href="https://www.youtube.com/watch?v=bZ1nTf_jVKw" target="_blank">
+                        <img src="我不需要每一個人都愛我.png" alt="我不需要每一個人都愛我">
+                        </a>
+                        <p>我不需要每一個人都愛我</p>
+                    </div>
+                    <div class="album-item">
+                        <a href="https://www.youtube.com/watch?v=mmcb1xKL_8U" target="_blank">
+                        <img src="i love the sky.png" alt="i love the sky">
+                        </a>
+                        <p>I Love the Sky</p>
+                    </div>            
+                </div>
+                <button id="add-music-btn">add</button>
+                <div id="add-music-form" style="display:none;">
+                    <p><input type="text" id="music-url" placeholder="Music URL"></p>
+                    <input type="text" id="music-name" placeholder="Music Name">
+                    <button id="submit-music">Submit</button>
+                </div>
+                <p class="note">These songs inspire me because they gave me motivation and confidence when I was in a bad mood. Hope you enjoy as well!</p>
+            </section>
+        </div>
+    </div>
+    <script src="113306024_HW7.js" charset="utf-8"></script>
+</body>
+</html>
